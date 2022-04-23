@@ -18,6 +18,19 @@ a:hover {
     cursor: pointer;
 }
 
+.bloc a {
+    text-decoration: none;
+}
+
+.bloc ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+.bloc ul li {
+    padding-right: 40px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -28,7 +41,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -526,7 +538,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -647,11 +659,14 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a {
+    color: black;
 }
 
 .container {
@@ -677,7 +692,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +725,7 @@ h2 {
 }
 
 #bloc-2-services h2 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -737,6 +752,11 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.black-color {
+    color: #000!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -775,12 +795,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
