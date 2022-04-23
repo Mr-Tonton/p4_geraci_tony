@@ -280,6 +280,20 @@ a:hover {
     margin-top: 30px;
 }
 
+
+.commentary p {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.commentary p span {
+    color: #575757;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .voffset-lg {
     margin-top: 80px;
 }
@@ -662,7 +676,7 @@ label,
 .btn {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 a {
@@ -728,7 +742,13 @@ h2 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    max-width: 600px;
+    margin: auto;
+}
+
+#bloc-2-services .first-h2 h2 {
+    text-transform: none;
+    font-size: 20px;
 }
 
 .med-width-whitespace {
